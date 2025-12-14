@@ -21,7 +21,7 @@
 	
 	} #page {
 		width: 1024px;
-		height: 1224px;
+		height: 2224px;
 		background: #0F0A12;
 		border: 1px solid #9003E4; 
 		margin: 0 auto;
@@ -49,6 +49,11 @@
 		border: none;
 		box-shadow: none;
 		margin: auto; 
+	} video {
+		
+		margin: 0 auto;
+		display: block;
+	}
 
 </style>
 </head>
@@ -64,9 +69,7 @@
 	
 <p> Hellooooo! Welcome to my portfolio page for GRC 365.  I want to showcase my work for school and personal here.  </p>
 	
-  <video> 
-	
-	</video>
+  
 	
 	<style>
     button {
@@ -91,12 +94,17 @@
 		0% {left: 10px}
 		100% {left: 120vw;}
 </style>
+	
 
 <body>
     <button onClick="document.getElementById('cat').style.animationPlayState='running'; ">Go!</button>
     <img src="c7ee958d22c1f9158f79f5205b46ee9a.png" alt="cat" width="242" height="203" id="cat"/>
 	</body>
-	
+	<div>
+<video width="640" height="360">
+		 <source src="video.mp4">
+				 </video>
+	</div>
 </div>
 </body>
 </html>
